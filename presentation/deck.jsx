@@ -32,7 +32,7 @@ export default class extends React.Component {
           <iframe
             width="100%"
             height="600px"
-            src="http://www.jsdelivr.com/statistics"/>
+            src="https://www.jsdelivr.com/statistics"/>
         </Slide>
         <Slide transition={["zoom", "fade"]} bgColor="primary">
           <CodePane
