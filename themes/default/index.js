@@ -127,6 +127,7 @@ module.exports = {
       marginTop: "1em"
     },
     content: {
+      maxWidth: "1200px",
       margin: "0 auto",
       textAlign: "center"
     },

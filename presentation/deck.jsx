@@ -22,13 +22,19 @@ export default class extends React.Component {
             in 5 Minutes
           </Heading>
         </Slide>
-        <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
+        <Slide transition={["slide"]} bgColor="black">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
           <Heading size={1} fit textColor="primary" textFont="secondary">
             Wait what?
           </Heading>
         </Slide>
-        <Slide transition={["zoom", "fade"]} bgColor="primary" notes="<ul><li>talk about that</li><li>and that</li></ul>">
+        <Slide transition={["zoom", "fade"]} bgColor="primary">
+          <iframe
+            width="100%"
+            height="600px"
+            src="http://www.jsdelivr.com/statistics"/>
+        </Slide>
+        <Slide transition={["zoom", "fade"]} bgColor="primary">
           <CodePane
             lang="javascript"
             source={require("raw!./deck.example")}
