@@ -8,12 +8,7 @@ import {
 import preloader from "../src/utils/preloader";
 import images from "./images";
 
-preloader([]);
-
-/*
-<Image src={images.kat} margin="0px auto 40px" height="293px"/>
-bgImage={images.city}
-*/
+preloader([images.network]);
 
 export default class extends React.Component {
   render() {
@@ -26,6 +21,9 @@ export default class extends React.Component {
           <Heading size={2} textColor="secondary">
             in 5 Minutes
           </Heading>
+        </Slide>
+        <Slide transition={["zoom", "fade"]} bgColor="primary">
+          <Image src={images.network} margin="0px auto 40px" height="475px"/>
         </Slide>
         <Slide transition={["zoom", "fade"]} bgColor="primary">
           <iframe

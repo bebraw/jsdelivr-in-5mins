@@ -1,5 +1,5 @@
 import _ from 'lodash';
 
 export default _.mapValues({
-  /*city: require("./images/city.jpg") */
+  network: require('./network.png')
 }, (v) => v.replace('/', ''));
