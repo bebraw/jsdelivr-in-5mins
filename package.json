@@ -9,8 +9,8 @@
     "build": "webpack",
     "deploy": "node ./src/deploy_gh_pages.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Juho Vepsalainen",
+  "license": "MIT",
   "dependencies": {
     "alt": "0.16.10",
     "highlight.js": "8.8.0",

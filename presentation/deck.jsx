@@ -8,7 +8,12 @@ import {
 import preloader from "../src/utils/preloader";
 import images from "./images";
 
-preloader([images.city, images.kat]);
+preloader([]);
+
+/*
+<Image src={images.kat} margin="0px auto 40px" height="293px"/>
+bgImage={images.city}
+*/
 
 export default class extends React.Component {
   render() {
@@ -22,25 +27,13 @@ export default class extends React.Component {
             in 5 Minutes
           </Heading>
         </Slide>
-        <Slide transition={["slide"]} bgColor="black">
-          <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
-          <Heading size={1} fit textColor="primary" textFont="secondary">
-            Wait what?
-          </Heading>
-        </Slide>
         <Slide transition={["zoom", "fade"]} bgColor="primary">
           <iframe
             width="100%"
             height="600px"
             src="https://www.jsdelivr.com/statistics"/>
         </Slide>
-        <Slide transition={["zoom", "fade"]} bgColor="primary">
-          <CodePane
-            lang="javascript"
-            source={require("raw!./deck.example")}
-            margin="20px auto"/>
-        </Slide>
-        <Slide transition={["slide"]} bgImage={images.city.replace("/", "")} bgDarken={0.75}>
+        <Slide transition={["slide"]}>
           <Appear fid="1">
             <Heading size={1} caps fit textColor="primary">
               Full Width
