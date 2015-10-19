@@ -33,21 +33,10 @@ export default class extends React.Component {
           <Image src={images.network} margin="0px auto 40px" height="475px"/>
         </Slide>
         <Slide transition={slideTransition} bgColor="primary">
-          <Heading size={1} fit lineHeight={1} textColor="tertiary">
+          <Heading size={2} lineHeight={1} textColor="tertiary">
             Sites Using jsDelivr
           </Heading>
-        </Slide>
-        <Slide transition={slideTransition} bgColor="primary" textColor="tertiary">
-          <List>
-            <ListItem>Urban Dictionary</ListItem>
-            <ListItem>Fontawesome</ListItem>
-            <ListItem>Windows Phone Shop (ru)</ListItem>
-            <ListItem>Algolia</ListItem>
-            <ListItem>Honda</ListItem>
-            <ListItem>Atlassian</ListItem>
-            <ListItem>Evernote</ListItem>
-            <ListItem>...</ListItem>
-          </List>
+          <Image src={images.sites} margin="60px auto 100px" height="399px"/>
         </Slide>
         <Slide transition={slideTransition} bgColor="primary">
           <iframe
