@@ -39,14 +39,14 @@ export default class extends React.Component {
         </Slide>
         <Slide transition={slideTransition} bgColor="primary" textColor="tertiary">
           <List>
-            <ListItem><Appear fid="1">Urban Dictionary</Appear></ListItem>
-            <ListItem><Appear fid="2">Fontawesome</Appear></ListItem>
-            <ListItem><Appear fid="3">Windows Phone Shop (ru)</Appear></ListItem>
-            <ListItem><Appear fid="4">Algolia</Appear></ListItem>
-            <ListItem><Appear fid="5">Honda</Appear></ListItem>
-            <ListItem><Appear fid="6">Atlassian</Appear></ListItem>
-            <ListItem><Appear fid="7">Evernote</Appear></ListItem>
-            <ListItem><Appear fid="8">...</Appear></ListItem>
+            <ListItem>Urban Dictionary</ListItem>
+            <ListItem>Fontawesome</ListItem>
+            <ListItem>Windows Phone Shop (ru)</ListItem>
+            <ListItem>Algolia</ListItem>
+            <ListItem>Honda</ListItem>
+            <ListItem>Atlassian</ListItem>
+            <ListItem>Evernote</ListItem>
+            <ListItem>...</ListItem>
           </List>
         </Slide>
         <Slide transition={slideTransition} bgColor="primary">
